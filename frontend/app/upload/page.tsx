@@ -79,17 +79,12 @@ export default function VideoUpload() {
 							</button>
 						</div>
 					</form>
-					{message && (
-						<p className="text-center text-sm mt-2 text-white">
-							{message}
-						</p>
-					)}
-					<div className="mt-6 text-center text-sm text-indigo-200/65">
+					<div className="mt-6 text-center">
 						<Link
-							className="font-medium text-indigo-500"
-							href="/signin"
+							className="inline-block px-6 py-3 text-lg font-medium text-[#030712] bg-white rounded-lg hover:opacity-80 transition duration-300"
+							href="/report"
 						>
-							Back to Sign In
+							Show results!
 						</Link>
 					</div>
 				</div>
